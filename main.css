@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/pokemon-hollow");
+
+
+.card1 {
+  padding: 20px;
+  width: 100vw;
+  height: 243px;
+  display: flex;
+  justify-content: center;
+}
+.wrapImg {
+  width: 250px;
+  height: 250px;
+}
+
+.wrapImg img {
+  width: 250px;
+  height: 250px;
+}
+.description {
+  font-family: "Teko", sans-serif;
+  font-size: 1.3em;
+  padding: 15px;
+  width: 350px;
+  height: 250px;
+  font-weight: 300;
+  bottom: 25px;
+  position: relative;
+}
+.description .name {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 30px;
+  color: yellow;
+  letter-spacing: 1px;
+  text-shadow: 0.5px 0.5px 0.5px blue, 0.8px 0.8px 0.8px blue;
+}
+.partition {
+  display: flex;
+  justify-content: space-between;
+}
+.part2 {
+  position: relative;
+  right: 75px;
+}
+.typeWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.typeWrap h5 {
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: "Teko", sans-serif;
+}
+.type {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+
+.card2 {
+  display: flex;
+  padding: 50px;
+  width: 100vw;
+  height: 243px;
+  justify-content: center;
+}
+
+.evolutionChain p {
+  font-family: "Teko", sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.nextP {
+  cursor: pointer;
+}
+.nextP:hover {
+  opacity: 80%;
+  border: 1px solid black;
+}
+.evo {
+  width: 250px;
+  height: 250px;
+}
+/* .evo:hover {
+  opacity: 80%;
+  border: 3px solid black;
+} */
+main.loading {
+  visibility: hidden;
+}
+
+main.loading:after {
+  visibility: visible;
+}

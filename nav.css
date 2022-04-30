@@ -1,0 +1,43 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+.search-bar .search {
+  font-family: "Arvo", serif;
+  padding: 8px;
+  margin: 3px;
+  font-size: 1.2em;
+  border-radius: 25px;
+  color: black;
+  background: #fdf7c5;
+}
+.search:focus {
+  border: solid 3px black;
+}
+.search:hover {
+  opacity: 80%;
+}
+::placeholder {
+  font-family: "Arvo", serif;
+  color: #36629086;
+  font-size: 1em;
+}
+.search-bar .btn {
+  margin: 3px;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  bottom: 8px;
+}
+.btn svg {
+  bottom: 8px;
+}
+.btn:hover {
+  opacity: 80%;
+}
+.btn svg:hover {
+  color: #ff9db2;
+}

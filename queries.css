@@ -1,0 +1,127 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  #page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template:
+      "head head head" 5%
+      "nav nav nav" 5%
+      "main main main" 60%
+      "foot foot foot" 3% / 1fr 1fr 1fr;
+  }
+  footer {
+    flex-direction: column;
+    visibility: hidden;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+  }
+  .card1 {
+    position: relative;
+    top: 30px;
+  }
+  .part2 {
+    position: relative;
+    right: 0px;
+  }
+  .partition {
+    font-size: 16px;
+  }
+  .description {
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+  .wrapImg {
+    width: 180px;
+    height: 180px;
+  }
+  .wrapImg img {
+    width: 180px;
+    height: 180px;
+  }
+  .evo {
+    width: 180px;
+    height: 180px;
+  }
+  #page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template:
+      "head head" 3%
+      "nav nav" 3%
+      "main main" 40%
+      "foot foot" 2% / 1fr 1fr;
+  }
+  footer {
+    visibility: hidden;
+  }
+}
+
+@media all and (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+  .card1 {
+    position: relative;
+    top: 50px;
+  }
+  .part2 {
+    position: relative;
+    right: 0px;
+  }
+  .partition {
+    font-size: 12px;
+  }
+  .description {
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .desc {
+    font-size: 10px;
+  }
+  .wrapImg {
+    position: relative;
+    top: 30px;
+    width: 110px;
+    height: 110px;
+  }
+  .wrapImg img {
+    width: 110px;
+    height: 110px;
+  }
+  .evo {
+    width: 110px;
+    height: 110px;
+  }
+  #page {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template:
+      "head head" 2%
+      "nav nav" 2%
+      "main main" 30%
+      "foot foot" 1% / 1fr 1fr;
+  }
+  footer {
+    visibility: hidden;
+  }
+}
